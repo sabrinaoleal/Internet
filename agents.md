@@ -41,6 +41,16 @@
 - Os testes antigos do navegador não são importados. Sem autorização de gravação, os pagamentos permanecem Pendentes de confirmação e os botões de alteração ficam bloqueados.
 - A integração para gravação usa google-apps-script.gs e exige implantação e autorização na conta Google. Instruções em CONEXAO-GOOGLE.md. Credenciais ficam em .env, fora do HTML.
 
+### Hospedagem online
+
+- Link publicado e confirmado: https://internet-congregacoes-sabrinaoleal.saltyquince4.chatgpt.site. Acesso privado pela mesma conta ChatGPT proprietária.
+
+- O projeto Sites registrado é appgprj_6af3d6c3fe008191826953e3def11d3f. Reutilizar esse identificador; não criar outro Site para este aplicativo.
+- O checkout de publicação está em publication/pagamento-internet, com repositório próprio e manifesto .openai/hosting.json. A pasta publication/ fica fora do Git principal.
+- Manter o Site privado para a conta proprietária. Não alterar o público sem pedido do usuário.
+- Ao atualizar a interface, sincronizar index.html e app.js com source/ nesse checkout; a versão online de app.js usa uma mensagem de conexão adequada ao acesso remoto. Gerar a compilação com node scripts/build.mjs e conferir node --test hosted.test.mjs antes de publicar pelo fluxo Sites.
+- As variáveis GOOGLE_APPS_SCRIPT_URL e GOOGLE_APPS_SCRIPT_TOKEN da versão online devem ser configuradas como valores de execução na hospedagem, nunca no código ou no GitHub.
+
 ### Informações a confirmar antes da implementação correspondente
 
 - Autorização e implantação do Apps Script para consultar e gravar pagamentos e guardar comprovantes no Google Drive.

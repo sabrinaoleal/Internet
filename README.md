@@ -9,6 +9,14 @@ Aplicativo para acompanhar o pagamento mensal de internet entre 19 congregaçõe
 
 ## Como abrir
 
+### Pela internet
+
+Abra [Pagamento de internet](https://internet-congregacoes-sabrinaoleal.saltyquince4.chatgpt.site) no celular ou no computador. O acesso é privado: entre com a mesma conta ChatGPT usada para publicar o aplicativo. O computador original pode ficar desligado.
+
+Os nomes já são consultados na planilha. Para registrar pagamentos e comprovantes, ainda é necessário autorizar a conexão Google descrita abaixo e configurar os valores privados na hospedagem.
+
+### Neste computador
+
 É necessário ter o Node.js 22 ou mais recente no computador.
 
 No Windows, abra **iniciar.cmd**. Depois, acesse **http://127.0.0.1:4173/** no navegador.
