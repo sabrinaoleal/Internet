@@ -43,11 +43,11 @@
 
 ### Hospedagem online
 
-- Link publicado e confirmado: https://internet-congregacoes-sabrinaoleal.saltyquince4.chatgpt.site. Acesso privado pela mesma conta ChatGPT proprietária.
+- Link publicado e confirmado: https://internet-congregacoes-sabrinaoleal.saltyquince4.chatgpt.site. O usuário solicitou acesso público em 11/11/2026: qualquer pessoa com o link pode consultar o aplicativo sem login.
 
 - O projeto Sites registrado é appgprj_6af3d6c3fe008191826953e3def11d3f. Reutilizar esse identificador; não criar outro Site para este aplicativo.
 - O checkout de publicação está em publication/pagamento-internet, com repositório próprio e manifesto .openai/hosting.json. A pasta publication/ fica fora do Git principal.
-- Manter o Site privado para a conta proprietária. Não alterar o público sem pedido do usuário.
+- Manter o Site público, conforme pedido do usuário. Nas próximas publicações, usar o fluxo apropriado para Sites públicos. Alterar o público somente a pedido do usuário. A consulta pública não autoriza liberar alterações de pagamentos para visitantes.
 - Ao atualizar a interface, sincronizar index.html e app.js com source/ nesse checkout; a versão online de app.js usa uma mensagem de conexão adequada ao acesso remoto. Gerar a compilação com node scripts/build.mjs e conferir node --test hosted.test.mjs antes de publicar pelo fluxo Sites.
 - As variáveis GOOGLE_APPS_SCRIPT_URL e GOOGLE_APPS_SCRIPT_TOKEN da versão online devem ser configuradas como valores de execução na hospedagem, nunca no código ou no GitHub.
 
